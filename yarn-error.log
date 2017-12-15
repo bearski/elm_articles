@@ -1,0 +1,43 @@
+Arguments: 
+  /usr/bin/node /usr/bin/yarn add elm-brunch --dev
+
+PATH: 
+  /home/santosh/bin:/home/santosh/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/mnt/d/cmder/bin:/mnt/d/cmder/vendor/conemu-maximus5/ConEmu/Scripts:/mnt/d/cmder/vendor/conemu-maximus5:/mnt/d/cmder/vendor/conemu-maximus5/ConEmu:/mnt/c/Program Files (x86)/Intel/iCLS Client:/mnt/c/Program Files/Intel/iCLS Client:/mnt/c/Windows/System32:/mnt/c/Windows:/mnt/c/Windows/System32/wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0:/mnt/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/DAL:/mnt/c/Program Files/Intel/Intel(R) Management Engine Components/DAL:/mnt/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/IPT:/mnt/c/Program Files/Intel/Intel(R) Management Engine Components/IPT:/mnt/c/HashiCorp/Vagrant/bin:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/python27:/mnt/c/python27/Scripts:/mnt/c/Program Files/PuTTY:/mnt/c/Program Files (x86)/Microsoft SQL Server/Client SDK/ODBC/130/Tools/Binn:/mnt/c/Program Files (x86)/Microsoft SQL Server/140/Tools/Binn:/mnt/c/Program Files (x86)/Microsoft SQL Server/140/DTS/Binn:/mnt/c/Program Files (x86)/Microsoft SQL Server/140/Tools/Binn/ManagementStudio:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/santo/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/santo/AppData/Local/atom/bin:/mnt/c/Users/santo/AppData/Local/atom/bin:/mnt/c/Users/santo/AppData/Local/Google/Cloud SDK/google-cloud-sdk/bin:/mnt/c/Program Files/Git/usr/bin:/mnt/d/cmder:/snap/bin
+
+Yarn version: 
+  1.3.2
+
+Node version: 
+  9.2.1
+
+Platform: 
+  linux x64
+
+npm manifest: 
+  {
+    "repository": {},
+    "license": "MIT",
+    "scripts": {
+      "deploy": "brunch build --production",
+      "watch": "brunch watch --stdin"
+    },
+    "dependencies": {
+      "phoenix": "file:deps/phoenix",
+      "phoenix_html": "file:deps/phoenix_html"
+    },
+    "devDependencies": {
+      "babel-brunch": "6.1.1",
+      "brunch": "2.10.9",
+      "clean-css-brunch": "2.10.0",
+      "uglify-js-brunch": "2.10.0"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: EINVAL: invalid argument, lstat '/mnt/d/phoenix/elm_articles/node_modules/optimist/node_modules/minimist/package.json'
