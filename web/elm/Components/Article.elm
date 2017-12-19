@@ -8,8 +8,9 @@ type alias Model =
 
 view : Model -> Html a
 view model =
-  span [ class "article" ] 
-    [a [ href model.url ] [ strong [ ] [ text model.title ] ]
+  span [ class "article" ] [
+    a [ href model.url ] [ strong [ ] [ text model.title ] ]
     , span [ ] [ text (" Posted by: " ++ model.postedBy) ]
-    , em [ ] [ text (" (posted on: " ++ model.postedOn ++ ")") ]
+    , em [ ] [ text (" (posted on: " ++ model.postedOn ++ ")")
     ]
+  ]
