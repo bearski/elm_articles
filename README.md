@@ -4,7 +4,9 @@
 Following [Brandon Richey's](https://medium.com/@diamondgfx) tutorial series
 
   * [Part 1](https://medium.com/@diamondgfx/writing-a-full-site-in-phoenix-and-elm-a100804c9499)
+  * [Part 2: Making HTTP Calls From Elm](https://medium.com/@diamondgfx/writing-a-full-site-in-phoenix-and-elm-a4622c5130f5)
 
+-------------------------------------------------------------------------------------------------------------------------
 
 To start your Phoenix app:
 
@@ -25,3 +27,4 @@ Ready to run in production? Please [check our deployment guides](http://www.phoe
   * Mailing list: http://groups.google.com/group/phoenix-talk
   * Source: https://github.com/phoenixframework/phoenix
 
+-------------------------------------------------------------------------------------------------------------------------
